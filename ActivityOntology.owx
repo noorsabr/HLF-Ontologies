@@ -47,28 +47,28 @@
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#executedBy"/>
@@ -122,7 +122,7 @@
         <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#startsParentActivity"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
+        <DataProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://www.semanticweb.org/aklen/ontologies/2023/0/visontology#OWLDataProperty_c210b1be_e495_4df8_a795_9e2a7d9247a8"/>
@@ -166,206 +166,206 @@
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasImmediateSuccessorSiblingActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSyncSemantic"/>
             <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#startsParentActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#finishedBySubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#finishesParentActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasImmediatePredecessorSiblingActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#startedBySubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#finishesParentActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasImmediatePredecessorSiblingActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSyncSemantic"/>
             <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasImmediateSuccessorSiblingActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#startsParentActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasParentActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasParentActivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasParentActivity"/>
             <ObjectUnionOf>
-                <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-                <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+                <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+                <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
             </ObjectUnionOf>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#hasSyncSemantic"/>
             <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#finishedBySubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#startedBySubactivity"/>
-            <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+            <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <DisjointClasses>
@@ -433,35 +433,35 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AlternatingActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
@@ -497,23 +497,23 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AtomicActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#CompositeActivity"/>
@@ -537,15 +537,15 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#CompositeActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#CompositeActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#CompositeActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
@@ -573,23 +573,23 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#ForkedActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
@@ -613,27 +613,27 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SequentialActivity"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
@@ -653,35 +653,35 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Service"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
@@ -689,35 +689,35 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#SyncSemantic"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
@@ -729,35 +729,35 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TraceId"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
@@ -765,167 +765,167 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAll"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#WaitForAny"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingEndorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingEndorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingOrderingAndValidation"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingOrderingAndValidation"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#AwaitingValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#AwaitingValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockInclusion"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockInclusion"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#BlockValidationAndCommit"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#BlockValidationAndCommit"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#Endorsement"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Endorsement"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#QueryProcessing"/>
-        <Class IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#TransactionProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#QueryProcessing"/>
+        <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#TransactionProcessing"/>
     </DisjointClasses>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#executedBy"/>
@@ -1009,16 +1009,16 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </ReflexiveObjectProperty>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
+        <DataProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
         <Class IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#Activity"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
+        <DataProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35</IRI>
+        <IRI>https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35</IRI>
         <Literal xml:lang="en">sug_viz</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

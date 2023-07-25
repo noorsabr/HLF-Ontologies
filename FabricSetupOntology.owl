@@ -1,0 +1,399 @@
+Prefix(:=<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl>
+
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AlternatingActivity>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SyncSemantic>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TraceId>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAny>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing>))
+Declaration(Class(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing>))
+Declaration(Class(:Duration))
+Declaration(Class(:End))
+Declaration(Class(:Start))
+Declaration(Class(:TemporalData))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executedBy>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executes>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedPredecessorSiblingActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedSuccessorSiblingActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediatePredecessorSiblingActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediateSuccessorSiblingActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasTraceId>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isSyncSemanticOf>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isTraceIdOf>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity>))
+Declaration(ObjectProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity>))
+Declaration(ObjectProperty(:DurationOf))
+Declaration(ObjectProperty(:EndOf))
+Declaration(ObjectProperty(:OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf))
+Declaration(ObjectProperty(:OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2))
+Declaration(ObjectProperty(:OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122))
+Declaration(ObjectProperty(:OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549))
+Declaration(ObjectProperty(:StartOf))
+Declaration(ObjectProperty(:hasDuration))
+Declaration(ObjectProperty(:hasEnd))
+Declaration(ObjectProperty(:hasStart))
+Declaration(ObjectProperty(:hasTemporalData))
+Declaration(ObjectProperty(:meets))
+Declaration(ObjectProperty(:metBy))
+Declaration(DataProperty(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35>))
+Declaration(NamedIndividual(:OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3))
+Declaration(NamedIndividual(:OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf))
+Declaration(NamedIndividual(:OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d))
+Declaration(NamedIndividual(:OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b))
+Declaration(NamedIndividual(:OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65))
+Declaration(NamedIndividual(:OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25))
+Declaration(NamedIndividual(:OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df))
+Declaration(NamedIndividual(:OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e))
+Declaration(NamedIndividual(:OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e))
+Declaration(NamedIndividual(:OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c))
+Declaration(NamedIndividual(:OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executedBy> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executedBy>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executedBy> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executes> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executes>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#executes> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity>)
+InverseObjectProperties(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> :OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity>)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedPredecessorSiblingActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedPredecessorSiblingActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedPredecessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity>)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedSuccessorSiblingActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedSuccessorSiblingActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasGappedSuccessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity>)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediatePredecessorSiblingActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediatePredecessorSiblingActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediatePredecessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity>)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediateSuccessorSiblingActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediateSuccessorSiblingActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediateSuccessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity>)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSiblingActivity> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasTraceId> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasTraceId>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasTraceId> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isSyncSemanticOf> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isSyncSemanticOf>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isSyncSemanticOf> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isTraceIdOf> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isTraceIdOf>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#isTraceIdOf> owl:topObjectProperty)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity>)
+InverseObjectProperties(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> :OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2)
+
+# Object Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity>)
+
+SubObjectPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity>)
+
+# Object Property: :DurationOf (:DurationOf)
+
+InverseObjectProperties(:DurationOf :hasDuration)
+
+# Object Property: :EndOf (:EndOf)
+
+InverseObjectProperties(:EndOf :hasEnd)
+
+# Object Property: :OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf (finishedBy)
+
+AnnotationAssertion(rdfs:label :OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf "finishedBy"@en)
+
+# Object Property: :OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2 (starts)
+
+AnnotationAssertion(rdfs:label :OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2 "starts"@en)
+
+# Object Property: :OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122 (startedBy)
+
+AnnotationAssertion(rdfs:label :OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122 "startedBy"@en)
+
+# Object Property: :OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549 (finishes)
+
+AnnotationAssertion(rdfs:label :OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549 "finishes"@en)
+
+# Object Property: :StartOf (:StartOf)
+
+InverseObjectProperties(:StartOf :hasStart)
+
+# Object Property: :meets (meets)
+
+AnnotationAssertion(rdfs:label :meets "meets"@en)
+InverseObjectProperties(:meets :metBy)
+
+# Object Property: :metBy (metBy)
+
+AnnotationAssertion(rdfs:label :metBy "metBy"@en)
+
+# Object Property: owl:topObjectProperty (owl:topObjectProperty)
+
+InverseObjectProperties(owl:topObjectProperty owl:topObjectProperty)
+SymmetricObjectProperty(owl:topObjectProperty)
+TransitiveObjectProperty(owl:topObjectProperty)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35> (sug_viz)
+
+AnnotationAssertion(rdfs:label <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35> "sug_viz"@en)
+SubDataPropertyOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35> owl:topDataProperty)
+DataPropertyDomain(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity>)
+DataPropertyRange(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity> ObjectExactCardinality(1 :hasDuration :Duration))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity> ObjectExactCardinality(1 :hasEnd :End))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity> ObjectExactCardinality(1 :hasStart :Start))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity> ObjectExactCardinality(3 :hasTemporalData :TemporalData))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AlternatingActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AlternatingActivity>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AlternatingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity>)
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity>)
+DisjointClasses(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity>)
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity>)
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SyncSemantic>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity>)
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SyncSemantic>)
+DisjointClasses(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAny>)
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAny> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAny>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAny> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SyncSemantic>)
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> ObjectSomeValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> ObjectAllValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediateSuccessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediatePredecessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> ObjectSomeValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> ObjectAllValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediatePredecessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAny>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasImmediateSuccessorSiblingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> ObjectSomeValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> ObjectAllValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> ObjectUnionOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing>)))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing> ObjectSomeValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing> ObjectAllValuesFrom(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#QueryProcessing> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSyncSemantic> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#WaitForAll>))
+
+# Class: <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing> (<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing>)
+
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity>)
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation>))
+SubClassOf(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing> ObjectExactCardinality(1 <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement>))
+
+# Class: :Duration (:Duration)
+
+SubClassOf(:Duration :TemporalData)
+
+# Class: :End (:End)
+
+SubClassOf(:End :TemporalData)
+
+# Class: :Start (:Start)
+
+SubClassOf(:Start :TemporalData)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3 (BlockValidationAndCommitPeer2)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3 "BlockValidationAndCommitPeer2"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> :OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> :OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3 :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+
+# Individual: :OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf (BlockValidationAndCommitPeer3)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf "BlockValidationAndCommitPeer3"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> :OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> :OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+
+# Individual: :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d (AwaitingOrderingAndValidation)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d "AwaitingOrderingAndValidation"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingOrderingAndValidation> :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishesParentActivity> :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d :OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df)
+
+# Individual: :OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b (EndorsementPeer1)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b "EndorsementPeer1"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement> :OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> :OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65)
+
+# Individual: :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 (AwaitingEndorsement)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 "AwaitingEndorsement"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingEndorsement> :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 :OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 :OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startsParentActivity> :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25)
+ObjectPropertyAssertion(:meets :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d)
+
+# Individual: :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25 (TransactionProcessing)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25 "TransactionProcessing"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#TransactionProcessing> :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#finishedBySubactivity> :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25 :OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#startedBySubactivity> :OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25 :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65)
+
+# Individual: :OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df (BlockInclusionOrdere0)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df "BlockInclusionOrdere0"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockInclusion> :OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df)
+ObjectPropertyAssertion(:meets :OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+
+# Individual: :OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e (EndorsementPeer0)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e "EndorsementPeer0"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Endorsement> :OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> :OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e :OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65)
+
+# Individual: :OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e (BlockValidationAndCommitPeer0)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e "BlockValidationAndCommitPeer0"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> :OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> :OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+
+# Individual: :OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c (BlockValidationAndCommitPeer1)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c "BlockValidationAndCommitPeer1"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#BlockValidationAndCommit> :OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasParentActivity> :OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+
+# Individual: :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 (AwaitingValidation)
+
+AnnotationAssertion(rdfs:label :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 "AwaitingValidation"@en)
+ClassAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AwaitingValidationAndCommit> :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 :OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 :OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 :OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e)
+ObjectPropertyAssertion(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#hasSubactivity> :OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 :OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c)
+
+
+DisjointClasses(<https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AlternatingActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity> <https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity>)
+)

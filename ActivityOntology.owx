@@ -125,7 +125,7 @@
         <DataProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/aklen/ontologies/2023/0/visontology#OWLDataProperty_c210b1be_e495_4df8_a795_9e2a7d9247a8"/>
+        <DataProperty IRI="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_c210b1be_e495_4df8_a795_9e2a7d9247a8"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
@@ -1023,22 +1023,22 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/aklen/ontologies/2023/0/visontology#OWLDataProperty_391312b7_0355_4d6d_aa89_93b96bdcd712</IRI>
+        <IRI>https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_391312b7_0355_4d6d_aa89_93b96bdcd712</IRI>
         <Literal xml:lang="en">different_individuals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/aklen/ontologies/2023/0/visontology#OWLDataProperty_c210b1be_e495_4df8_a795_9e2a7d9247a8</IRI>
+        <IRI>https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLDataProperty_c210b1be_e495_4df8_a795_9e2a7d9247a8</IRI>
         <Literal xml:lang="en">visualization_directive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/aklen/ontologies/2023/0/visontology#OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf</IRI>
+        <IRI>https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf</IRI>
         <Literal xml:lang="en">finishedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/aklen/ontologies/2023/0/visontology#OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122</IRI>
+        <IRI>https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx#OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122</IRI>
         <Literal xml:lang="en">startedBy</Literal>
     </AnnotationAssertion>
 </Ontology>

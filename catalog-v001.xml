@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1690325958585" name="https://raw.githubusercontent.com/noorsabr/ontologies/main/CSVOntology.owx" uri="CSVOntology.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1690325958585" name="https://raw.githubusercontent.com/noorsabr/ontologies/main/EDAontology.owx" uri="EDAontology.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1690325958585" name="https://raw.githubusercontent.com/noorsabr/ontologies/main/ActivityOntology.owx" uri="ActivityOntology.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1690325958585" name="https://raw.githubusercontent.com/noorsabr/ontologies/main/FabricDeploymentOntology.owx" uri="FabricDeploymentOntology.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1690325958585" name="https://raw.githubusercontent.com/noorsabr/ontologies/main/FabricTemporalOntology.owx" uri="FabricTemporalOntology.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1690325958585" name="http://www.semanticweb.org/noori/ontologies/2023/LocalOntologyGit" uri="Local.owx"/>
+    </group>
+</catalog>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/noori/ontologies/2023/FabricTemporalOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/noori/ontologies/2023/FabricTemporalOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/noori/ontologies/2023/FabricTemporalOntology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#End"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Start"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DurationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EndOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#StartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTemporalData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meets"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#metBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Duration"/>
+        <Class IRI="#TemporalData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#End"/>
+        <Class IRI="#TemporalData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Start"/>
+        <Class IRI="#TemporalData"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#meets"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#meets"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DurationOf"/>
+        <ObjectProperty IRI="#hasDuration"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EndOf"/>
+        <ObjectProperty IRI="#hasEnd"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#StartOf"/>
+        <ObjectProperty IRI="#hasStart"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#meets"/>
+        <ObjectProperty IRI="#metBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3</IRI>
+        <Literal xml:lang="en">BlockValidationAndCommitPeer2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf</IRI>
+        <Literal xml:lang="en">BlockValidationAndCommitPeer3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d</IRI>
+        <Literal xml:lang="en">AwaitingOrderingAndValidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b</IRI>
+        <Literal xml:lang="en">EndorsementPeer1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65</IRI>
+        <Literal xml:lang="en">AwaitingEndorsement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25</IRI>
+        <Literal xml:lang="en">TransactionProcessing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df</IRI>
+        <Literal xml:lang="en">BlockInclusionOrdere0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e</IRI>
+        <Literal xml:lang="en">EndorsementPeer0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e</IRI>
+        <Literal xml:lang="en">BlockValidationAndCommitPeer0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c</IRI>
+        <Literal xml:lang="en">BlockValidationAndCommitPeer1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806</IRI>
+        <Literal xml:lang="en">AwaitingValidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_56e86369_00ab_464e_a4dd_3556258eb3bf</IRI>
+        <Literal xml:lang="en">finishedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2</IRI>
+        <Literal xml:lang="en">starts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_7687b178_4b05_4918_90c8_2c1d8036f122</IRI>
+        <Literal xml:lang="en">startedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549</IRI>
+        <Literal xml:lang="en">finishes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meets</IRI>
+        <Literal xml:lang="en">meets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#metBy</IRI>
+        <Literal xml:lang="en">metBy</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

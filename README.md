@@ -1,6 +1,6 @@
 # Ontology Repository
 
-Welcome to the Ontology Repository! This repository contains a collection of ontologies designed to facilitate structured and standardized representation of knowledge in various domains. These ontologies aim to improve their respective fields' data integration, knowledge sharing, and reasoning capabilities.
+Welcome to the Ontology Repository! This repository contains a collection of ontologies designed to facilitate structured and standardized representation of knowledge in HyperLedger Fabric. These ontologies aim to improve their respective fields' data integration, knowledge sharing, and reasoning capabilities.
 
 ## Table of Contents
 

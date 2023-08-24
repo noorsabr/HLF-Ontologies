@@ -1,0 +1,4 @@
+
+#Rule 2: Creates new individuals of type Histogram for every Duration activity individual and connect them through the object property “hasPlot”, where the duration is used as the X-axis of the histogram. 
+
+Duration(?dur) ^ swrlx:makeOWLThing(?hist, ?dur) -> hasPlot(?dur, ?hist) ^ Histogram(?hist) ^ hasXAxis(?hist, ?dur)

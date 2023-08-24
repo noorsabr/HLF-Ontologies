@@ -1,0 +1,3 @@
+#Rule 4: Creates new individuals of type Scatter plot for every duration and start activity and connect them through the object property “hasPot”, where the duration is used as the X-axis of the boxplot and the start is used as the Y-axis.
+
+Activity(?act) ^ Duration(?dur) ^ Start(?st) ^ hasDuration(?act, ?dur) ^ hasStart(?act, ?st) ^ swrlx:makeOWLThing(?scat, ?act) -> hasPlot(?dur, ?scat) ^ hasPlot(?st, ?scat) ^ ScatterPlot(?scat) ^ hasXAxis(?scat, ?st) ^ hasYAxis(?scat, ?dur)

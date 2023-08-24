@@ -1,0 +1,3 @@
+# Rule 1: Links each activity with its corresponding start time by creating a new individual that represents the start time and associating it with the activity using the "hasStart" object property
+
+Activity(?act) ^ swrlx:makeOWLThing(?st, ?act) -> hasStart(?act, ?st) ^ Start(?st)
